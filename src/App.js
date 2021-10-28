@@ -4,6 +4,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 import './App.css';
 
 
@@ -26,10 +27,12 @@ function App() {
     }
   };
   return (
-    <div className="App">
+    <body className="App">
       <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} />
       <div>{renderPage(currentPage)}</div>
-    </div>
+      <Footer></Footer>
+    </body>
+    
   );
 }
 
