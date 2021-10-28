@@ -1,7 +1,8 @@
 import React from 'react';
 
-function Nav() {
+function Nav(props) {
 
+    const tabs = ['About', 'Contact', 'Portfolio', 'Resume'];
     return(
         <header>
             <h2>
@@ -10,29 +11,22 @@ function Nav() {
                 </a>
             </h2>
         <nav>
-            <ul>
-                <li>
-                    <a href="#About">
-                        About Me
+        <ul className="nav nav-tabs">
+            {tabs.map(tab=> (
+                <li className="nav-item" key={tab}>
+                    <a href={'#' + tab}
+                        onClick={() => props.setCurrentPage(tab)}
+                        className={
+                            props.currentPage === tab
+                        }
+                    >
+                    {tab}
                     </a>
                 </li>
-                <li>
-                    <a href="#Contact">
-                        Contact
-                    </a>
-                </li>
-                <li>
-                    <a href="#Portfolio">
-                        Portfolio
-                    </a>
-                </li>
-                <li>
-                    <a href="#Resume">
-                        Resume
-                    </a>
-                </li>
-            </ul>
+            ))}
+        </ul>
         </nav>
+
         </header>
 
     )
