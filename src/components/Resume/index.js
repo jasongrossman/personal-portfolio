@@ -1,9 +1,14 @@
 import React from 'react';
+import cv from '../../assets/resume/Jason.Grossman.Resume.pdf';
 
 function Resume() {
 
     return(
     <section id="Experience">
+        <div>
+            <a href={cv} > Download my Resume here:
+            </a>
+        </div>
         <div class="roles">
         <h2 class="section-title">Experience</h2>
         <div class="role">

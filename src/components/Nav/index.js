@@ -1,30 +1,31 @@
 import React from 'react';
+import '../../App.css'
 
 function Nav(props) {
 
     const tabs = ['About', 'Contact', 'Portfolio', 'Resume'];
     return(
-        <header>
-            <h2>
-                <a href="/">
-                    Jason Grossman
-                </a>
-            </h2>
+        <header className="header row">
         <nav>
-        <ul className="nav nav-tabs">
-            {tabs.map(tab=> (
-                <li className="nav-item" key={tab}>
-                    <a href={'#' + tab}
-                        onClick={() => props.setCurrentPage(tab)}
-                        className={
-                            props.currentPage === tab
-                        }
-                    >
-                    {tab}
+            <ul className="nav col" id="nav">
+                <h2 className="col">
+                    <a href="/">
+                        Jason Grossman
                     </a>
-                </li>
-            ))}
-        </ul>
+                </h2>
+                {tabs.map(tab=> (
+                    <li className="nav-item mx-3" key={tab} id="nav-item">
+                        <a href={'#' + tab}
+                            onClick={() => props.setCurrentPage(tab)}
+                            className={
+                                props.currentPage === tab
+                            }
+                        >
+                        {tab}
+                        </a>
+                    </li>
+                ))}
+            </ul>
         </nav>
 
         </header>
