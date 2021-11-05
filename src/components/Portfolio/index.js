@@ -59,11 +59,19 @@ function Portfolio() {
                     <li className="project-li">
                         {projects.deployed_link}
                     </li>
+                <div>
+                    <a href={projects.deployed_link}>
                     <img src={require(`../../assets/project-images/${projects.id}.JPG`).default} 
                         alt={projects.name}
                         className="img-thumbnail mx-1"
                         key={projects.name}
+                        href={projects.deployed_link}
                     />
+                    <h4 className="project-name">{projects.name}</h4>
+                    </a>
+                </div>
+                    <h5 className="github-link">{projects.github}</h5>
+                    <h5 className="deployed-link">{projects.deployed_link}</h5>
                     </ul>
             ))}
         </section>
