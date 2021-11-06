@@ -65,16 +65,35 @@ h3 {
   font-size: 24px;
 }
 
-.project-li,
-.project-name,
-.project-github
- {
+.portfolio-container {
+  padding: 20px;
+  align-items:center;
+}
+
+.project-list {
+  display: flex;
+  align-items:flex-start;
+  padding: 10px 0 20px 20px;
+  border: 5px solid var(--primary-color);
+  align-items:center;
+
+}
+
+.project-name {
   list-style: none;
+  text-decoration: none;
+  color: var(--white-colour);
+  background: var(--secondary-colour);
+  opacity: 0.75;
+  padding: 5px;
+  width: 15%;
+  border-radius: 5px;
+  font-size: 24px;
 }
 
 .img-thumbnail {
-  height: 35%;
-  width: 35%;
+  height: 300px;
+  width: 550px;
   border: 5px solid var(--primary-color);
   border-radius: 10px;
 }
@@ -85,11 +104,10 @@ h3 {
   margin: 15px;
 }
 
-.project-name {
-  position: relative;
-  text-align: center;
-  bottom: 50px;
-  left: -45px;
+.github-icon {
+  height: 50px;
+  width: 50px;
+  background: white, 0.5;
 }
 
 .App-logo {

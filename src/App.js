@@ -27,11 +27,11 @@ function App() {
     }
   };
   return (
-    <body className="App">
+    <section className="App">
       <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} />
       <div>{renderPage(currentPage)}</div>
       <Footer></Footer>
-    </body>
+    </section>
     
   );
 }

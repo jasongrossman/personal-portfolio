@@ -16,9 +16,9 @@ function Nav(props) {
                     <li className="nav-item mx-3" key={tab} id="nav-item">
                         <a href={'#' + tab}
                             onClick={() => props.setCurrentPage(tab)}
-                            className={
-                                props.currentPage === tab
-                            }
+                            // className={
+                            //     props.currentPage === tab
+                            // }
                         >
                         {tab}
                         </a>
