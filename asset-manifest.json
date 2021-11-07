@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.23ebb784.chunk.css",
+    "main.js": "/personal-portfolio/static/js/main.9151b262.chunk.js",
+    "main.js.map": "/personal-portfolio/static/js/main.9151b262.chunk.js.map",
+    "runtime-main.js": "/personal-portfolio/static/js/runtime-main.e92b4450.js",
+    "runtime-main.js.map": "/personal-portfolio/static/js/runtime-main.e92b4450.js.map",
+    "static/js/2.c3aaa3d3.chunk.js": "/personal-portfolio/static/js/2.c3aaa3d3.chunk.js",
+    "static/js/2.c3aaa3d3.chunk.js.map": "/personal-portfolio/static/js/2.c3aaa3d3.chunk.js.map",
+    "static/js/3.de237400.chunk.js": "/personal-portfolio/static/js/3.de237400.chunk.js",
+    "static/js/3.de237400.chunk.js.map": "/personal-portfolio/static/js/3.de237400.chunk.js.map",
+    "index.html": "/personal-portfolio/index.html",
+    "static/css/main.23ebb784.chunk.css.map": "/personal-portfolio/static/css/main.23ebb784.chunk.css.map",
+    "static/js/2.c3aaa3d3.chunk.js.LICENSE.txt": "/personal-portfolio/static/js/2.c3aaa3d3.chunk.js.LICENSE.txt",
+    "static/media/0.JPG": "/personal-portfolio/static/media/0.2b14ad49.JPG",
+    "static/media/1.JPG": "/personal-portfolio/static/media/1.bcba1b08.JPG",
+    "static/media/2.JPG": "/personal-portfolio/static/media/2.eda0f5c0.JPG",
+    "static/media/3.JPG": "/personal-portfolio/static/media/3.c59dc625.JPG",
+    "static/media/4.JPG": "/personal-portfolio/static/media/4.dc17bf8c.JPG",
+    "static/media/5.JPG": "/personal-portfolio/static/media/5.281ec2c7.JPG",
+    "static/media/Jason.Grossman.Resume.efee6bf7.pdf": "/personal-portfolio/static/media/Jason.Grossman.Resume.efee6bf7.pdf",
+    "static/media/profile-pic.3f6ee18f.jpg": "/personal-portfolio/static/media/profile-pic.3f6ee18f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e92b4450.js",
+    "static/js/2.c3aaa3d3.chunk.js",
+    "static/css/main.23ebb784.chunk.css",
+    "static/js/main.9151b262.chunk.js"
+  ]
+}
