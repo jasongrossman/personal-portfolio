@@ -99,6 +99,7 @@ function Portfolio() {
                         href={project.deployed_link}
                     />
                     </a>
+                    <div>
                     <a href={project.github}>
                         <img src={require(`../../assets/github_icon.png`).default} 
                             alt="github"
@@ -106,6 +107,7 @@ function Portfolio() {
                         />
                     </a>
                     <a href={project.deployed_link} className="project-name col mx-2">{project.name}</a>
+                    </div>
                 </div>
                 </div>
             ))}
