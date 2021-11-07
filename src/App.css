@@ -187,6 +187,12 @@ footer {
   margin-top: 50px;
 }
 
+
+.footer-links {
+  position: absolute;
+  right: 50px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
