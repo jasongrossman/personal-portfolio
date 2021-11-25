@@ -39,6 +39,12 @@ function Portfolio() {
             github: 'https://github.com/jasongrossman/work-day-scheduler',
             deployed_link: 'https://jasongrossman.github.io/work-day-scheduler/'
         },
+        {
+            id: '6',
+            name: 'Virtual Garage',
+            github: 'https://github.com/virtualgarage33333/virtual-garage',
+            deployed_link: 'https://virtual-garage-33333.herokuapp.com'
+        }
     ]);
 
     // const [projects, setProjects] = useState([
