@@ -9,6 +9,10 @@
   text-align: center;
 }
 
+.main-background {
+  background: var(--white-colour);
+}
+
 a:hover {
   text-decoration: underline;
 }
@@ -31,6 +35,9 @@ a:hover {
   padding: 10px;
 }
 
+.footer {
+  background: var(--white-colour);
+}
 
 .nav {
   background: var(--secondary-colour);
@@ -61,22 +68,69 @@ h3 {
   font-weight: bold;
 }
 
+.about-body {
+  background: var(--white-colour);
+}
+
+.bio {
+  display: flex;
+  align-items: flex-start;
+}
+
+.cover-photo {
+  width: 25%;
+  margin: 5%;
+}
+
+.about-title {
+  padding-top: 3%;
+}
+
 .about-text {
   font-size: 24px;
+  width: 80%;
+  padding-top: 3%;
+  margin: auto;
+  text-align: justify;
+}
+
+.card-group {
+  margin: 3%;
+}
+
+.card {
+  background: var(--white-colour);
+  border: 2px solid var(--secondary-colour);
+}
+
+.card-img-top {
+  background: var(--white-colour);
+  height: 55%;
+  width: 37%;
+  margin: auto;
+}
+
+.card-body {
+  background: var(--primary-colour);
+  color: var(--white-colour);
+}
+
+.text-muted {
+  color: var(--white-colour);
 }
 
 .portfolio-container {
   padding: 20px;
   align-items:center;
+  margin: auto;
 }
 
 .project-list {
   display: flex;
-  align-items:flex-start;
+  align-items: flex-start;
   padding: 10px 0 20px 20px;
   border: 5px solid var(--primary-color);
   align-items:center;
-
 }
 
 .project-name {
@@ -92,9 +146,9 @@ h3 {
 }
 
 .img-thumbnail {
-  height: 300px;
+  height: 350px;
   width: 550px;
-  border: 5px solid var(--primary-color);
+  border: 10px solid var(--primary-color);
   border-radius: 10px;
 }
 

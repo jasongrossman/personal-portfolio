@@ -93,7 +93,7 @@ function Portfolio() {
     return(
         <section className="portfolio-container row">
             {projectsRef.current.map(project => (
-                <div className="project-list" style={{ width: "50%" }}
+                <div className="project-list" style={{ width: "40%" }}
                     key={project.id}
                 >
                 <div className="project-container">
