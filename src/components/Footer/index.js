@@ -3,16 +3,30 @@ import React from 'react';
 function Footer() {
 
     return(
-        <footer className="footer">
-            <div className="row footer-name">
+        <footer className="row footer">
+            <div className="col footer-name">
                 <h2>
                     Made by: Jason Grossman
                 </h2>
-                <h3>
+                <h4>
                     Powered with React
-                </h3>
+                </h4>
             </div>
-            <div className="row">
+            <div className="col footer-contact">
+                <h4>
+                    From: Toronto, Canada
+                </h4>
+                <h4>
+                   Phone: 416-436-5106
+                </h4>
+                <h4>
+                    Email: jasongrossman2@gmail.com
+                </h4>
+
+
+            </div>
+
+            <div className="col">
                 <h3 className="col">
                     <span> 
                         <a href="https://github.com/jasongrossman">

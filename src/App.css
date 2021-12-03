@@ -68,6 +68,12 @@ h3 {
   font-weight: bold;
 }
 
+h4 {
+  color: var(--primary-colour);
+  font-weight: bold;
+  font-size: 18px;
+}
+
 .about-body {
   background: var(--white-colour);
 }
@@ -237,14 +243,24 @@ button:hover {
   color: #61dafb;
 }
 
-footer {
+.footer {
   margin-top: 50px;
 }
 
+.footer-name {
+  text-align: left;
+  margin-left: 3%;
+  color: var(--white-colour);
+}
 
 .footer-links {
   position: absolute;
   right: 50px;
+
+}
+
+.footer-contact {
+  text-align: center;
 }
 
 @keyframes App-logo-spin {
