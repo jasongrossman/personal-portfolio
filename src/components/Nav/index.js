@@ -8,7 +8,7 @@ function Nav(props) {
         <nav>
             <ul className="nav col" id="nav">
                 <h2 className="col">
-                    <a href="/personal-portfolio">
+                    <a href="/home">
                         Jason Grossman
                     </a>
                 </h2>

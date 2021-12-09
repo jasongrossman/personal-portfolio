@@ -1,5 +1,6 @@
 import React , { useState } from 'react';
 import Nav from './components/Nav';
+import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
@@ -10,7 +11,7 @@ import './App.css';
 
 function App() {
 
-  const [currentPage, setCurrentPage] = useState('About');
+  const [currentPage, setCurrentPage] = useState('Home');
 
   const renderPage = () => {
     switch (currentPage) {
@@ -22,8 +23,10 @@ function App() {
         return <Portfolio />;
       case 'Resume':
         return <Resume />;
+      case 'Home':
+        return <Home />;
       default:
-        return <About />;
+        return <Home />
     }
   };
   return (

@@ -5,11 +5,11 @@ import profilePic from '../../assets/profile-pic.jpg';
 function About() {
 
     return(
-        <section class="about-body">
-        <div class="bio">
-            <img src={profilePic} alt="cover" class="cover-photo"/>
+        <section className="about-body">
+        <div className="bio">
+            <img src={profilePic} alt="cover" className="cover-photo"/>
             <div>
-            <h1 class="about-title">
+            <h1 className="about-title">
                  About Me
             </h1>
                 <p className="about-text">
@@ -24,26 +24,26 @@ function About() {
                 </p>
             </div>
         </div>
-        <div class="card-group">
-            <div class="card">
-                <img src={require(`../../assets/about/coding_card.png`).default} class="card-img-top" alt="..."/>
-                <div class="card-body">
-                <h5 class="card-title">Full Stack Development</h5>
-                <p class="card-text">Capable of building responsive web applications, using MERN stack. Uses mobile-first development processes, with an eye for U/X. Knowledgeable about industry best practices for design solutions to optimize for user goal completion.</p>
+        <div className="card-group">
+            <div className="card">
+                <img src={require(`../../assets/about/coding_card.png`).default} className="card-img-top" alt="..."/>
+                <div className="card-body">
+                <h5 className="card-title">Full Stack Development</h5>
+                <p className="card-text">Capable of building responsive web applications, using MERN stack. Uses mobile-first development processes, with an eye for U/X. Knowledgeable about industry best practices for design solutions to optimize for user goal completion.</p>
                 </div>
             </div>
-            <div class="card">
-            <img src={require(`../../assets/about/project_management_card.png`).default} class="card-img-top" alt="..."/>
-                <div class="card-body">
-                <h5 class="card-title">Project Management</h5>
-                <p class="card-text">Experience in Agile project management methodology, as well as Waterfall. Led multiple project teams with cross functional partners to ship features to market and grow KPIs. A natural leader who can organize large and small teams to get things done on time and in full.</p>
+            <div className="card">
+            <img src={require(`../../assets/about/project_management_card.png`).default} className="card-img-top" alt="..."/>
+                <div className="card-body">
+                <h5 className="card-title">Project Management</h5>
+                <p className="card-text">Experience in Agile project management methodology, as well as Waterfall. Led multiple project teams with cross functional partners to ship features to market and grow KPIs. A natural leader who can organize large and small teams to get things done on time and in full.</p>
                 </div>
             </div>
-            <div class="card">
-            <img src={require(`../../assets/about/strategy_card.png`).default} class="card-img-top" alt="..."/>
-                <div class="card-body">
-                <h5 class="card-title">Strategy & Analytics</h5>
-                <p class="card-text">Knows how to create short term and long term strategies, leveraging data to inform decision making. Whether that be growth through operational efficiency or innovation, can map out strategies and execute them.</p>
+            <div className="card">
+            <img src={require(`../../assets/about/strategy_card.png`).default} className="card-img-top" alt="..."/>
+                <div className="card-body">
+                <h5 className="card-title">Strategy & Analytics</h5>
+                <p className="card-text">Knows how to create short term and long term strategies, leveraging data to inform decision making. Whether that be growth through operational efficiency or innovation, can map out strategies and execute them.</p>
                 </div>
             </div>
         </div>
