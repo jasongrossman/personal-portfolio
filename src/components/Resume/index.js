@@ -5,14 +5,17 @@ function Resume() {
 
     return(
     <section id="resume">
-        <br/>
+
         <div>
-            <a href={cv} > Download my Resume here:
+        <button type="button" class="resume-download btn-info">            
+            <a href={cv} > 
+                Download my Resume here:
             </a>
+        </button>
         </div>
         <br />
-        <div className="section-title">
-            <h2>Summary</h2>
+        <div className="resume-section">
+            <h2 className="section-title">Summary</h2>
             <p className="summary">
                 Full stack developer with 7 years of professional business experience in category management, operations, and 
                 analytics. An entrepreneur at heart, passionate about strategic planning, solving problems, and creating. Known 
@@ -20,8 +23,8 @@ function Resume() {
                 leadership.
             </p>
         </div>
-        <div className="technical-skills">
-            <h3>Technical Skills</h3>
+        <div className="resume-section">
+            <h2 className="section-title">Technical Skills</h2>
             <h5 className="tech-stack">Languages:</h5>
                     <p>
                         JavaScript ES6+, CSS3, HTML5, SQL, NoSQL
@@ -35,7 +38,7 @@ function Resume() {
                     React, Node, Express, GraphQL, Handlebars, jQuery, Bootstrap
                     </p>
         </div>
-        <div className="education row">
+        <div className="resume-section row">
             <h2 className="section-title">Education</h2>
             <div className="school col-4">
             <img src={require(`../../assets/resume/uoft.svg`).default} className="uoft" alt="u-of-t"/>            
@@ -56,10 +59,10 @@ function Resume() {
                 <p className="degree">Bachelor of Arts, Honours Business Administration</p>
             </div>
         </div>
-        <div className="experience">
+        <div className="resume-section">
             <h2 className="section-title">Experience</h2>
             <div className="role-container row">
-            <div className="role col-6">
+            <div className="role col-12">
                 <h3 className="company">
                     Suncor Energy Inc.
                 </h3>
@@ -86,7 +89,7 @@ function Resume() {
                     </li>
                 </ul>
             </div>
-            <div className="role col-6">
+            <div className="role col-4">
                     <h3 className="company">Suncor Energy Inc.</h3>
                     <h4 className="position">Advisor, Card Production – Transaction Management</h4>
                     <ul>
@@ -106,7 +109,7 @@ function Resume() {
                         </li>
                     </ul>
             </div>
-            <div className="role col-6">
+            <div className="role col-4">
                     <h3 className="company">Suncor Energy Inc.</h3>
                     <h4 className="position">Optimization Analyst – Refining and Logistics</h4>
                     <ul>
@@ -124,7 +127,7 @@ function Resume() {
                         </li>
                     </ul>
             </div>
-            <div className="role col-6">
+            <div className="role col-4">
                     <h3 className="company">Suncor Energy Inc.</h3>
                     <h4 className="position">Account Manager – Commercial Road Transport</h4>
                     <ul>

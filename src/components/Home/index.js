@@ -1,53 +1,137 @@
-import React from 'react';
+import { Carousel } from 'react-bootstrap';
+import React, { useRef } from 'react';
+import mern from '../../assets/home/MERN.png'
 
 function Home() {
 
+
+  const travelPics = useRef([
+    {
+      id: 0,
+      img: 'kyoto' 
+    },
+    {
+      id: 1,
+      img: 'white-haven'
+    },
+    {
+      id: 2,
+      img: 'siargao'
+    },
+    {
+      id: 3,
+      img: 'ao-nang'
+    },
+    {
+      id: 4,
+      img: 'colosseum'
+    },
+    {
+      id: 5,
+      img: 'anfield'
+    },
+    {
+      id: 6,
+      img: 'angkor-wat'
+    },
+    {
+      id: 7,
+      img: 'costa-rica'
+    },
+    {
+      id: 8,
+      img: 'ninh-binh'
+    },
+    {
+      id: 9,
+      img: 'london'
+    },
+    {
+      id: 10,
+      img: 'sydney'
+    },
+    {
+      id: 11,
+      img: 'mt-batur'
+    },
+    {
+      id: 12,
+      img: 'singapore'
+    },
+    {
+      id: 13,
+      img: 'amsterdam'
+    },
+    {
+      id: 14,
+      img: 'pnohm-penh'
+    }
+  ]);
+
     return (
+      
         <section className="home">
-            <div>
-                <h1>
-                    A timeline of my professional journey...
-                </h1>
-                
-<div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
-  <div className="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div className="carousel-inner">
-    <div className="carousel-item active" data-bs-interval="10000">
-      <img src="https://wallsdesk.com/wp-content/uploads/2016/08/White-Abstract-Screenshots.jpg" className="d-block w-100" alt="..."/>
-      <div className="carousel-caption d-none d-md-block">
-        <h5>Full Stack Developer</h5>
-        <p>Graduated from the University of Toronto School of Continuing Studies in their Coding Bootcamp. Can build scalable, responsive web applications using the MERN (MongoDb, Express, React, Node) stack enabled by JavaScript.</p>
-      </div>
-    </div>
-    <div className="carousel-item" data-bs-interval="2000">
-      <img src="https://www.criteo.com/wp-content/uploads/2020/05/black-and-white-blank-challenge-connect-262488-scaled.jpg" className="d-block w-100" alt="..."/>
-      <div className="carousel-caption d-none d-md-block">
-        <h5>Category Management</h5>
-        <p>I've built winning strategies in the retail world. From digital enhancements to real-world innovation, I know how to create strategy and bring it to market. </p>
-      </div>
-    </div>
-    <div className="carousel-item">
-      <img src="https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-zoom-virtual-background-_Tcjok-d9b4.jpg" className="d-block w-100" alt="..."/>
-      <div className="carousel-caption d-none d-md-block">
-        <h5>Data Analytics</h5>
-        <p>Working in both small and large datasets, I can extract valuable insights and tell compelling stories behind the numbers. I can visualize information, and explain complex concepts in a way that is easy for others to understand.</p>
-      </div>
-    </div>
-  </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
-  </button>
-</div>
+          <div className="jumbotron-one row" id="hero">
+            <div className="col-5">
+              <img src={mern} alt="code-stack" className="code-stack"/>
             </div>
+            <div className="col-7">
+              <h1 className="jumbotron-primary display-4">Hi, I'm Jason, Full Stack Web Developer</h1>
+              <p className="lead">I love to build and create.</p>
+
+              {/* <h4 class="my-4"></h4>
+              <p></p> */}
+              <p className="lead">
+                <a className="btn btn-primary btn-lg" href='https://github.com/jasongrossman' target="_blank" role="button" rel="noreferrer">Check out my work</a>
+
+              </p>
+            </div>
+          </div>
+
+  
+          <div className="jumbotron-two row" id="second-hero">
+            <div className="col-7">
+            <h1 className="display-4">I'm immersed in the world of Business</h1>
+            <p className="lead-two">I've worked in Retail, Energy, Pharma, and Tech, but am always learning about new industries.</p>
+            {/* <h4 class="my-4"></h4>
+            <p></p> */}
+            <p className="lead">
+              <a className="btn btn-primary btn-lg" href="https://www.linkedin.com/in/jason-grossman-1a082430/" target="_blank" role="button" rel="noreferrer">Explore my Experiences</a>
+            </p>
+          </div>
+          <div className="col-5"></div>
+          </div>
+
+          <div className="jumbotron row" id="third-hero">
+            <div className="col-7">
+            <div>               
+              <Carousel className="carousel">
+                <h3> Some of my favourite photos from my travels... </h3>
+                {travelPics.current.map(travelPic => (
+                  <Carousel.Item>
+                    <img
+                    className="travel-pic"
+                    src={require(`../../assets/home/travel/${travelPic.img}.jpg`).default} 
+                    alt='travel'
+                    key={travelPic.id}
+                    />
+                  </Carousel.Item>
+                ))}
+              </Carousel>
+            </div>
+            </div>
+            <div className="col-5">
+            <h1 className="display-4">I also have hobbies and interests!</h1>
+            <p className="lead">I am an avid traveller, a rabid sports fan, a foodie, and so much more! </p>
+            <h4 className="my-4">Follow my socials to keep up.</h4>
+            {/* <p></p> */}
+            <p className="lead">
+              <a className="btn btn-primary btn-lg" href="#About" role="button">Follow along</a>
+            </p>
+          </div>
+          </div>
+
+
         </section>
     )
 }
