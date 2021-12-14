@@ -294,15 +294,23 @@ button:hover {
 }
 
 .jumbotron-two {
-  padding-top: 15%;
+  padding-top: 5%;
   height: 850px;
   width: 100%;
   background: var(--white-colour);
 }
 
+.jumbotron h1 {
+  padding-top: 15%;
+}
+
 .jumbotron-primary {
  color: var(--white-colour);
  font-size: 48px;
+}
+
+.jumbotron-secondary {
+  padding-top: 15%;
 }
 
 .lead {
@@ -313,11 +321,19 @@ button:hover {
   color: var(--primary-colour);
 }
 
+.lead-three {
+  color: var(--white-colour)
+}
+
 .code-stack {
   height: 250px;
   margin: auto;
   background: var(--white-colour);
+}
 
+.toronto {
+  height: 480px;
+  margin: auto;
 }
 
 #second-hero {
@@ -344,13 +360,18 @@ button:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.travel-caption {
+  color: var(--white-colour);
+  font-weight: lighter;
+}
+
 .carousel img {
   height: 640px;
 }
 
 .carousel-control-next, .carousel-control-prev {
   position: absolute;
-  top: 50%;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -1,7 +1,7 @@
 import { Carousel } from 'react-bootstrap';
 import React, { useRef } from 'react';
 import mern from '../../assets/home/MERN.png'
-
+import toronto from '../../assets/home/toronto.jpg'
 function Home() {
 
 
@@ -76,7 +76,7 @@ function Home() {
               <img src={mern} alt="code-stack" className="code-stack"/>
             </div>
             <div className="col-7">
-              <h1 className="jumbotron-primary display-4">Hi, I'm Jason, Full Stack Web Developer</h1>
+              <h1 className="jumbotron-primary display-4"> I'm Jason, a Full Stack Web Developer</h1>
               <p className="lead">I love to build and create.</p>
 
               {/* <h4 class="my-4"></h4>
@@ -88,10 +88,9 @@ function Home() {
             </div>
           </div>
 
-  
-          <div className="jumbotron-two row" id="second-hero">
+            <div className="jumbotron-two row" id="second-hero">
             <div className="col-7">
-            <h1 className="display-4">I'm immersed in the world of Business</h1>
+            <h1 className="jumbotron-secondary display-4">I'm immersed in the world of Business</h1>
             <p className="lead-two">I've worked in Retail, Energy, Pharma, and Tech, but am always learning about new industries.</p>
             {/* <h4 class="my-4"></h4>
             <p></p> */}
@@ -99,14 +98,16 @@ function Home() {
               <a className="btn btn-primary btn-lg" href="https://www.linkedin.com/in/jason-grossman-1a082430/" target="_blank" role="button" rel="noreferrer">Explore my Experiences</a>
             </p>
           </div>
-          <div className="col-5"></div>
+          <div className="col-5">
+          <img src={toronto} alt="toronto-skyline" className="toronto"/>
+
+          </div>
           </div>
 
           <div className="jumbotron row" id="third-hero">
             <div className="col-7">
             <div>               
               <Carousel className="carousel">
-                <h3> Some of my favourite photos from my travels... </h3>
                 {travelPics.current.map(travelPic => (
                   <Carousel.Item>
                     <img
@@ -118,15 +119,17 @@ function Home() {
                   </Carousel.Item>
                 ))}
               </Carousel>
+              <h3 className="travel-caption"> Some of my favourite photos from my travels... </h3>
+
             </div>
             </div>
             <div className="col-5">
-            <h1 className="display-4">I also have hobbies and interests!</h1>
-            <p className="lead">I am an avid traveller, a rabid sports fan, a foodie, and so much more! </p>
-            <h4 className="my-4">Follow my socials to keep up.</h4>
+            <h1 className="lead-three display-4">I also love adventure</h1>
+            <p className="lead">I am an avid traveller, passionate sports fan, foodie, and so much more... </p>
+            <p className="lead">Follow my socials to keep up.</p>
             {/* <p></p> */}
             <p className="lead">
-              <a className="btn btn-primary btn-lg" href="#About" role="button">Follow along</a>
+              <a className="btn btn-primary btn-lg" href="https://twitter.com/Jason_Grossman" target="_blank" role="button" rel="noreferrer">Follow along</a>
             </p>
           </div>
           </div>
