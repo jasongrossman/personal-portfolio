@@ -171,9 +171,6 @@ h4 {
   cursor: pointer;
   font-weight: 600;
 }
-.button :hover {
-  border: 3px solid black;
-}
 
 
 .project-container {
@@ -286,11 +283,10 @@ button:hover {
   background: var(--tertiary-colour);
 }
 
-.jumbotron-one {
-  padding-top: 15%;
-  height: 850px;
+.home-cover{
+  padding: none;
+  height: auto;
   width: 100%;
-  background: var(--tertiary-colour);
 }
 
 .jumbotron-two {
@@ -300,13 +296,21 @@ button:hover {
   background: var(--white-colour);
 }
 
-.jumbotron h1 {
+/* .jumbotron h1 {
   padding-top: 15%;
-}
+} */
 
 .jumbotron-primary {
- color: var(--white-colour);
- font-size: 48px;
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  padding: 2%;
+  color: var(--white-colour);
+  font-size: 48px;
+  background: var(--secondary-colour);
+  opacity: 0.6;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: .5rem;
 }
 
 .jumbotron-secondary {
@@ -317,11 +321,31 @@ button:hover {
   color: var(--white-colour);
 }
 
+.btn-primary {
+  position: absolute;
+  top: 50%;
+  right: 25%;
+  background: var(--primary-colour);
+  border: none;
+}
+
+.btn-secondary, .btn-tertiary {
+  background: var(--primary-colour);
+  border: none;
+  color: var(--white-colour);
+}
+
+.btn-primary:hover, .btn-secondary:hover, .btn-tertiary:hover {
+  background: var(--secondary-colour);
+  color: white;
+}
+
 .lead-two{
   color: var(--primary-colour);
 }
 
 .lead-three {
+  padding-top: 35%;
   color: var(--white-colour)
 }
 
@@ -331,9 +355,20 @@ button:hover {
   background: var(--white-colour);
 }
 
+.home-cover {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .toronto {
-  height: 480px;
-  margin: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #second-hero {
@@ -342,36 +377,31 @@ button:hover {
 
 
 .carousel {
-  padding-top: none;
+  max-width: 100%;
+  max-height: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
 }
 
-.carousel-caption {
-  background: var(--white-colour);
-  opacity: 0.7;
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  height: 20%;
-  font-weight: bold;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 
 .travel-caption {
+  padding-top: 10%;
   color: var(--white-colour);
   font-weight: lighter;
 }
 
+
 .carousel img {
-  height: 640px;
+  max-width: auto;
+  max-height: 500px;
+  display: block;
+  margin: auto;
+  padding-left: 5%;
 }
 
 .carousel-control-next, .carousel-control-prev {
   position: absolute;
-
 }
 
 @media (prefers-reduced-motion: no-preference) {

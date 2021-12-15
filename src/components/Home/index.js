@@ -1,7 +1,8 @@
 import { Carousel } from 'react-bootstrap';
 import React, { useRef } from 'react';
-import mern from '../../assets/home/MERN.png'
+// import mern from '../../assets/home/MERN.png'
 import toronto from '../../assets/home/toronto.jpg'
+import cover from '../../assets/home/cover.jpg'
 function Home() {
 
 
@@ -72,19 +73,19 @@ function Home() {
       
         <section className="home">
           <div className="jumbotron-one row" id="hero">
+          <img src={cover} alt="home-cover" className="home-cover"/>
             <div className="col-5">
-              <img src={mern} alt="code-stack" className="code-stack"/>
             </div>
-            <div className="col-7">
+            <div className="hero-cta-container col-7">
               <h1 className="jumbotron-primary display-4"> I'm Jason, a Full Stack Web Developer</h1>
-              <p className="lead">I love to build and create.</p>
+              {/* <p className="lead">I'm comfortable working in the MERN stack using JavaScript.</p> */}
 
               {/* <h4 class="my-4"></h4>
               <p></p> */}
               <p className="lead">
                 <a className="btn btn-primary btn-lg" href='https://github.com/jasongrossman' target="_blank" role="button" rel="noreferrer">Check out my work</a>
-
               </p>
+              {/* <img src={mern} alt="code-stack" className="code-stack"/> */}
             </div>
           </div>
 
@@ -95,7 +96,7 @@ function Home() {
             {/* <h4 class="my-4"></h4>
             <p></p> */}
             <p className="lead">
-              <a className="btn btn-primary btn-lg" href="https://www.linkedin.com/in/jason-grossman-1a082430/" target="_blank" role="button" rel="noreferrer">Explore my Experiences</a>
+              <a className="btn btn-secondary btn-lg" href="https://www.linkedin.com/in/jason-grossman-1a082430/" target="_blank" role="button" rel="noreferrer">Explore my Experiences</a>
             </p>
           </div>
           <div className="col-5">
@@ -106,7 +107,9 @@ function Home() {
 
           <div className="jumbotron row" id="third-hero">
             <div className="col-7">
-            <div>               
+            <div className="carousel-container">   
+            <h3 className="travel-caption"> Some of my favourite photos from my travels... </h3>
+            
               <Carousel className="carousel">
                 {travelPics.current.map(travelPic => (
                   <Carousel.Item>
@@ -119,7 +122,6 @@ function Home() {
                   </Carousel.Item>
                 ))}
               </Carousel>
-              <h3 className="travel-caption"> Some of my favourite photos from my travels... </h3>
 
             </div>
             </div>
@@ -129,7 +131,7 @@ function Home() {
             <p className="lead">Follow my socials to keep up.</p>
             {/* <p></p> */}
             <p className="lead">
-              <a className="btn btn-primary btn-lg" href="https://twitter.com/Jason_Grossman" target="_blank" role="button" rel="noreferrer">Follow along</a>
+              <a className="btn btn-tertiary btn-lg" href="https://twitter.com/Jason_Grossman" target="_blank" role="button" rel="noreferrer">Follow along</a>
             </p>
           </div>
           </div>
