@@ -276,11 +276,11 @@ button:hover {
   opacity: .8;
 }
 
-.jumbotron {
-  height: 850px;
+.jumbotron-three {
   width: 100%;
   padding-top: 5%;
-  background: var(--tertiary-colour);
+  padding-bottom: 10%;
+  background: var(--secondary-colour);
 }
 
 .home-cover{
@@ -290,15 +290,11 @@ button:hover {
 }
 
 .jumbotron-two {
-  padding-top: 5%;
-  height: 850px;
+  padding-top: 10%;
+  padding-bottom: 10%;
   width: 100%;
   background: var(--white-colour);
 }
-
-/* .jumbotron h1 {
-  padding-top: 15%;
-} */
 
 .jumbotron-primary {
   position: absolute;
@@ -314,7 +310,7 @@ button:hover {
 }
 
 .jumbotron-secondary {
-  padding-top: 15%;
+  padding-top: 5%;
 }
 
 .lead {
@@ -324,19 +320,20 @@ button:hover {
 .btn-primary {
   position: absolute;
   top: 50%;
-  right: 25%;
-  background: var(--primary-colour);
+  right: 20%;
+  border: 1px solid var(--white-colour);
+  background: var(--secondary-colour);
   border: none;
 }
 
 .btn-secondary, .btn-tertiary {
-  background: var(--primary-colour);
-  border: none;
+  background: var(--secondary-colour);
+  border: 1px solid var(--white-colour);
   color: var(--white-colour);
 }
 
 .btn-primary:hover, .btn-secondary:hover, .btn-tertiary:hover {
-  background: var(--secondary-colour);
+  background: var(--primary-colour);
   color: white;
 }
 

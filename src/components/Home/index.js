@@ -105,7 +105,7 @@ function Home() {
           </div>
           </div>
 
-          <div className="jumbotron row" id="third-hero">
+          <div className="jumbotron-three row" id="third-hero">
             <div className="col-7">
             <div className="carousel-container">   
             <h3 className="travel-caption"> Some of my favourite photos from my travels... </h3>
