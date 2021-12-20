@@ -130,10 +130,9 @@ h4 {
 }
 
 .portfolio-container {
-  padding: 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;  
+  justify-content: flex-start;
 }
 
 .project-list {
@@ -157,10 +156,13 @@ h4 {
 }
 
 .img-thumbnail {
-  width: 100%;
+  width: auto;
   height: 100%;
   object-fit: cover left;
   transition: all 0.5s ease;
+  margin: auto;
+  background: var(--primary-colour);
+  border: none;
 }
   
  .img-thumbnail :mobile { 
@@ -183,7 +185,8 @@ h4 {
   margin: 25px;
   height: 70vh;
   position: relative;
-  border: 3px solid var(--primary-colour);
+  border: 3px solid var(--secondary-colour);
+  background: var(--primary-colour);
   border-radius: 10px;
 }
 
@@ -650,4 +653,25 @@ button:hover {
     padding-top: 3%;
     font-size: 18px;
   }
+
+  .summary {
+    font-size: 18px;
+    width: 90%;
+  }
+
+  .role {
+    width: 95%;
+  }
+
+  .uoft, .western, .ivey {
+    max-height: 60px;
+    width: auto;
+  }
+
+  .project-container {
+    margin: 25px;
+    height: 40vh;
+  }
+  
+
 }

@@ -40,15 +40,15 @@ function Resume() {
         </div>
         <div className="resume-section row">
             <h2 className="section-title">Education</h2>
-            <div className="school col-4">
+            <div className="school lg-col-4 md-col-6">
             <img src={require(`../../assets/resume/uoft.svg`).default} className="uoft" alt="u-of-t"/>            
                 <h4>Coding Bootcamp Certificate<span> - 2021</span></h4>
             </div>
-            <div className="school col-4">
+            <div className="school lg-col-4 md-col-6">
                 <img src={require(`../../assets/resume/western.png`).default} className="western" alt="western"/>            
                 <h4>Master the Entrepreneur Skillset Certificate <span> - 2020</span></h4>
             </div>
-            <div className="school col-4">
+            <div className="school lg-col-4 md-col-6">
                 <img src={require(`../../assets/resume/ivey.jpg`).default} className="ivey" alt="ivey"/>            
                 <h4>Bachelor Degree - Honours, Business Administration <span> - 2014</span></h4>
             </div>

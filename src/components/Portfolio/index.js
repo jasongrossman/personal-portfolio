@@ -51,14 +51,14 @@ function Portfolio() {
     return(
         <section className="portfolio-container row">
             {projectsRef.current.map(project => (
-                <div className="project-list" style={{ width: "50%" }}
+                <div className="project-list col-lg-6 md-12" 
                     key={project.id}
                 >
                 <div className="project-container">
                     <a href={project.deployed_link}>
                     <img src={require(`../../assets/project-images/${project.id}.JPG`).default} 
                         alt={project.name}
-                        className="img-thumbnail col mx-6"
+                        className="img-thumbnail" 
                         key={project.name}
                         href={project.deployed_link}
                     />
@@ -67,10 +67,10 @@ function Portfolio() {
                     <a href={project.github}>
                         <img src={require(`../../assets/github_icon.png`).default} 
                             alt="github"
-                            className="github-icon col mx-2"
+                            className="github-icon col md-2"
                         />
                     </a>
-                    <a href={project.deployed_link} className="project-name col mx-2">{project.name}</a>
+                    <a href={project.deployed_link} className="project-name col md-2">{project.name}</a>
                     </div>
                 </div>
                 </div>
