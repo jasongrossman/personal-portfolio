@@ -540,6 +540,10 @@ button:hover {
   .carousel-caption {
     padding-bottom: 15%;
   }
+
+  .btn-secondary {
+    margin-top: -25%;
+  }
 }
 
 @media screen and (max-width: 600px) {
