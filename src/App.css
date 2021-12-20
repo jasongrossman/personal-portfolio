@@ -112,8 +112,8 @@ h4 {
 
 .card-img-top {
   background: var(--white-colour);
-  height: 55%;
-  width: 37%;
+  height: 200px;
+  width: auto;
   margin: auto;
 }
 
@@ -121,6 +121,7 @@ h4 {
   display: flex-start;
   background: var(--primary-colour);
   color: var(--white-colour);
+  height: 180px;
 }
 
 .text-muted {
@@ -307,8 +308,8 @@ button:hover {
 
 .jumbotron-three {
   width: 100%;
-  padding-top: 5%;
-  padding-bottom: 10%;
+  padding-top: 1%;
+  padding-bottom: 5%;
   background: var(--secondary-colour);
 }
 
@@ -676,6 +677,23 @@ button:hover {
     margin: 25px;
     height: 40vh;
   }
+
+  .cover-photo {
+    width: 50%;
+    margin: auto;
+    padding-top: 5%;
+    border-radius: 50%;
+  }
   
+  .card-img-top {
+    background: var(--white-colour);
+    max-height: 10vh;
+    width: auto;
+    margin: auto;
+  }
+
+  .card-container {
+    padding-top: 2%;
+  }
 
 }
