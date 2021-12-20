@@ -6,7 +6,7 @@ function Resume() {
     return(
     <section id="resume">
 
-        <div>
+        <div className="button-container">
         <button type="button" class="resume-download btn-info">            
             <a href={cv} > 
                 Download my Resume here:
@@ -42,21 +42,15 @@ function Resume() {
             <h2 className="section-title">Education</h2>
             <div className="school col-4">
             <img src={require(`../../assets/resume/uoft.svg`).default} className="uoft" alt="u-of-t"/>            
-            <h3>University of Toronto, School of Continuing Studies</h3>
-                <h4>Toronto, ON <span> - 2021</span></h4>
-                <p className="degree">Coding Bootcamp Certificate</p>
+                <h4>Coding Bootcamp Certificate<span> - 2021</span></h4>
             </div>
             <div className="school col-4">
                 <img src={require(`../../assets/resume/western.png`).default} className="western" alt="western"/>            
-                <h3>Western University, School of Continuing Studies</h3>
-                <h4>London, ON <span> - 2020</span></h4>
-                <p className="degree">Master the Entrepreneur Skillset Course, Certificate of Achievement</p>
+                <h4>Master the Entrepreneur Skillset Certificate <span> - 2020</span></h4>
             </div>
             <div className="school col-4">
                 <img src={require(`../../assets/resume/ivey.jpg`).default} className="ivey" alt="ivey"/>            
-                <h3>Richard Ivey School of Business</h3>
-                <h4>London, ON <span> - 2014</span></h4>
-                <p className="degree">Bachelor of Arts, Honours Business Administration</p>
+                <h4>Bachelor Degree - Honours, Business Administration <span> - 2014</span></h4>
             </div>
         </div>
         <div className="resume-section">

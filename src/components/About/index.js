@@ -14,10 +14,10 @@ function About() {
             </h1>
                 <p className="about-text">
                 Full stack web developer with professional business experience in category management and analytics. 
-                Recently earned a certificate in full stack development from the University of Toronto School of Continuing Studies. 
+                Earned a certificate in full stack development from the University of Toronto School of Continuing Studies. 
                 Now proficient in Javascript, Node, React, MongoDB as well as responsive web design. 
                 With a history in project management and bringing products to market, I can now plan and ship development features as well. 
-                I’m Passionate about solving problems, and using technology to create new solutions. 
+                I’m passionate about solving problems, and using technology to create new solutions. 
                 I’m an entrepreneur at heart who loves to build and create, while using a data-driven, strategic approach. 
                 I am seeking an opportunity to learn and refine my development capabilities so that I can build better applications independently. 
                 As a strong communicator who can adapt to any team environment, I’m excited to leverage my experience to join a quality-driven team to build great products.

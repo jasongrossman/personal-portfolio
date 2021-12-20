@@ -26,7 +26,7 @@ function Footer() {
 
             </div>
 
-            <div className="col">
+            <div className="col links">
                 <h3 className="col">
                     <span> 
                         <a href="https://github.com/jasongrossman">

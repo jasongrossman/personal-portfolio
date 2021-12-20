@@ -1,6 +1,5 @@
 import { Carousel } from 'react-bootstrap';
 import React, { useRef } from 'react';
-// import mern from '../../assets/home/MERN.png'
 import toronto from '../../assets/home/toronto.jpg'
 import cover from '../../assets/home/cover.jpg'
 function Home() {
@@ -78,14 +77,9 @@ function Home() {
             </div>
             <div className="hero-cta-container col-7">
               <h1 className="jumbotron-primary display-4"> I'm Jason, a Full Stack Web Developer</h1>
-              {/* <p className="lead">I'm comfortable working in the MERN stack using JavaScript.</p> */}
-
-              {/* <h4 class="my-4"></h4>
-              <p></p> */}
               <p className="lead">
                 <a className="btn btn-primary btn-lg" href='https://github.com/jasongrossman' target="_blank" role="button" rel="noreferrer">Check out my work</a>
               </p>
-              {/* <img src={mern} alt="code-stack" className="code-stack"/> */}
             </div>
           </div>
 
@@ -93,24 +87,24 @@ function Home() {
             <div className="col-7">
             <h1 className="jumbotron-secondary display-4">I'm immersed in the world of Business</h1>
             <p className="lead-two">I've worked in Retail, Energy, Pharma, and Tech, but am always learning about new industries.</p>
-            {/* <h4 class="my-4"></h4>
-            <p></p> */}
-            <p className="lead">
-              <a className="btn btn-secondary btn-lg" href="https://www.linkedin.com/in/jason-grossman-1a082430/" target="_blank" role="button" rel="noreferrer">Explore my Experiences</a>
-            </p>
-          </div>
+            </div>
+
           <div className="col-5">
           <img src={toronto} alt="toronto-skyline" className="toronto"/>
 
           </div>
+          <p className="lead col-lg-7 col-md-12">
+              <a className="btn btn-secondary btn-lg" href="https://www.linkedin.com/in/jason-grossman-1a082430/" target="_blank" role="button" rel="noreferrer">Explore my Experiences</a>
+            </p>
+
           </div>
 
           <div className="jumbotron-three row" id="third-hero">
-            <div className="col-7">
+            <div className="col-lg-7 col-md-12">
             <div className="carousel-container">   
             <h3 className="travel-caption"> Some of my favourite photos from my travels... </h3>
             
-              <Carousel className="carousel">
+              <Carousel className="carousel col-lg-7 col-md-12">
                 {travelPics.current.map(travelPic => (
                   <Carousel.Item>
                     <img
@@ -125,7 +119,7 @@ function Home() {
 
             </div>
             </div>
-            <div className="col-5">
+            <div className="col-lg-5 col-md-12">
             <h1 className="lead-three display-4">I also love adventure</h1>
             <p className="lead">I am an avid traveller, passionate sports fan, foodie, and so much more... </p>
             <p className="lead">Follow my socials to keep up.</p>
