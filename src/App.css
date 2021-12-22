@@ -101,6 +101,16 @@ h4 {
   text-align: justify;
 }
 
+.code {
+  height: 50px;
+  width: 50px;
+  list-style: none;
+  flex-direction: right;
+  display: inline-flex;
+  justify-content: space-between;
+  margin: 2%;
+}
+
 .card-group {
   margin: 3%;
 }
@@ -108,12 +118,13 @@ h4 {
 .card {
   background: var(--white-colour);
   border: 2px solid var(--secondary-colour);
+  margin-bottom: 1%;
 }
 
 .card-img-top {
   background: var(--white-colour);
   height: 200px;
-  width: auto;
+  width: 200px;
   margin: auto;
 }
 
@@ -121,13 +132,15 @@ h4 {
   display: flex-start;
   background: var(--primary-colour);
   color: var(--white-colour);
-  height: 180px;
+  height: 280px;
+  text-align: left;
+  font-size: 18px;
 }
+
 
 .text-muted {
   color: var(--white-colour);
   flex: wrap;
-
 }
 
 .portfolio-container {
