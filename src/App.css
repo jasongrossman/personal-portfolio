@@ -109,6 +109,20 @@ h4 {
   display: inline-flex;
   justify-content: space-between;
   margin: 2%;
+  position: relative;
+}
+
+.code span {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background: rgba(255,255,255,.8);
+}
+
+.code:hover span {
+  display: block;
 }
 
 .card-group {

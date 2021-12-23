@@ -26,33 +26,44 @@ function About() {
                 <ul className="dev-stack">
                         <li className="code">
                             <img src="https://cdn4.iconfinder.com/data/icons/blackicon/54/html5_icon-512.png" tooltip="html" alt="html"/>
+                            <span>HTML</span>
                         </li>
                         <li className="code">
-                            <img src="https://pic.onlinewebfonts.com/svg/img_242429.png" alt="mongo"/>                        
+                            <img src="https://pic.onlinewebfonts.com/svg/img_242429.png" alt="mongo"/>
+                            <span>MongoDB</span>                        
                         </li>
                         <li className="code">
                             <img src="http://cdn.onlinewebfonts.com/svg/img_436907.png" alt="css"/>
+                            <span>CSS</span>                        
                         </li>
                         <li className="code">
                             <img src="https://icon-library.com/images/javascript-icon-png/javascript-icon-png-13.jpg" alt="javascript"/>
+                            <span>JavaScript</span>                        
                         </li>
                         <li className="code">
                             <img src="https://cdn.iconscout.com/icon/free/png-256/react-1543566-1306069.png" alt="react"/>
+                            <span>React</span>                     
                         </li>
                         <li className="code">
-                        <img src="https://www.svgrepo.com/show/327379/logo-nodejs.svg" alt="node"/>
+                            <img src="https://www.svgrepo.com/show/327379/logo-nodejs.svg" alt="node"/>
+                            <span>Node</span>                        
                         </li>
                         <li className="code">
                             <img src="https://i2.wp.com/www.mementotech.in/assets/images/icons/express.png" alt="express"/>                        
+                            <span>Express</span>                        
                         </li>
                         <li className="code">
                             <img src="https://cdn0.iconfinder.com/data/icons/programing-development/24/mysql_database_logo_data_base-512.png" alt="mysql"/>
+                            <span>MySQL</span>                        
+
                         </li>
                         <li className="code">
                             <img src="https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/JQuery_logo-512.png" alt="jquery"/>                        
+                            <span>jQuery</span>                        
                         </li>
                         <li className="code">
                             <img src="https://www.pngrepo.com/png/330083/512/bootstrap.png" alt="bootstrap"/> 
+                            <span>Bootstrap</span>                        
                         </li>
                     </ul>
             </div>

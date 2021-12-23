@@ -20,7 +20,7 @@ function Footer() {
                    Phone: 416-436-5106
                 </h4>
                 <h4>
-                    Email: jasongrossman2@gmail.com
+                    Email: <a href="mailto:jasongrossman2@gmail.com">jasongrossman2@gmail.com</a>
                 </h4>
 
 
