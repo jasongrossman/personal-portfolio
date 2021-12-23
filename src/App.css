@@ -129,6 +129,7 @@ h4 {
   margin: 3%;
 }
 
+
 .card {
   background: var(--white-colour);
   border: 2px solid var(--secondary-colour);
@@ -572,6 +573,24 @@ button:hover {
   .btn-secondary {
     margin-top: -25%;
   }
+
+  .cover-photo {
+    width: 25%;
+    margin: 12% 5%;
+    border-radius: 50%;
+  }
+
+  .about-text {
+    width: 100%;
+  }
+  
+  .card-body {
+    height: 350px;
+  }
+
+  .code {
+    margin: 5% 1.5%;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -722,5 +741,7 @@ button:hover {
   .card-container {
     padding-top: 2%;
   }
+
+ 
 
 }
