@@ -5,46 +5,59 @@ function Portfolio() {
     const projectsRef = useRef([
         {
             id: '0',
+            name: 'Shop Shop',
+            github: 'https://github.com/jasongrossman/shop-shop',
+            deployed_link: 'https://fathomless-woodland-74704.herokuapp.com/'
+        },
+        {
+            id: '1',
+            name: 'Book Search Engine',
+            github: 'https://github.com/jasongrossman/book-search-engine',
+            deployed_link: 'https://floating-falls-40516.herokuapp.com/'
+        },
+        {
+            id: '2',
+            name: 'Budget Tracker',
+            github: 'https://github.com/jasongrossman/budget-tracker',
+            deployed_link: 'https://protected-crag-30220.herokuapp.com/'
+        },
+        {
+            id: '3',
             name: 'FoodieLove',
             github: 'https://github.com/jasongrossman/team-2',
             deployed_link: 'https://jasongrossman.github.io/team-2/',
         },
         {
-            id: '1',
+            id: '4',
             name: 'Photo Port',
             github: 'https://github.com/jasongrossman/photo-port',
             deployed_link: 'https://jasongrossman.github.io/photo-port/'
         },
         {
-            id: '2',
+            id: '5',
             name: 'Pizza Hunt',
             github: 'https://github.com/jasongrossman/pizza-hunt',
             deployed_link: 'https://whispering-hollows-21157.herokuapp.com/'
         },
         {
-            id: '3',
+            id: '6',
             name: 'Food Festival',
             github: 'https://github.com/jasongrossman/food-festival',
             deployed_link: 'https://jasongrossman.github.io/food-festival/'
         },
         {
-            id: '4',
-            name: 'The Sneakers Collector',
-            github: 'https://github.com/UofTL/the-sneakers-collector',
-            deployed_link: 'https://peaceful-fortress-81224.herokuapp.com/'
-        },
-        {
-            id: '5',
+            id: '7',
             name: 'Work Day Scheduler',
             github: 'https://github.com/jasongrossman/work-day-scheduler',
             deployed_link: 'https://jasongrossman.github.io/work-day-scheduler/'
-        },
-        {
-            id: '6',
-            name: 'Virtual Garage',
-            github: 'https://github.com/virtualgarage33333/virtual-garage',
-            deployed_link: 'https://virtual-garage-33333.herokuapp.com'
         }
+        // ,
+        // {
+        //     id: '8',
+        //     name: 'Virtual Garage',
+        //     github: 'https://github.com/virtualgarage33333/virtual-garage',
+        //     deployed_link: 'https://virtual-garage-33333.herokuapp.com'
+        // }
     ]);
 
 
