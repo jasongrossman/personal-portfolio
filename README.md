@@ -5,7 +5,9 @@ Welcome to my Portfolio. This web application is powered by React and built as a
 
 Follow the navigation bar at the top to browse and learn about me, my professional experiences, and to look at a small sample of my portfolio to date. My resume can also be downloaded at the top of the Resume section.
 
-You can reach out to me via the contact me section, which requires a valid email address and populated fields to submit.
+I hope you learn a bit more about me, my interests, and how we can collaborate together.
+
+You can reach out to me via the contact details in the footer to connect.
 
 ## Link 
 
